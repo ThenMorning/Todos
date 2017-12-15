@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="x5-cache" content="disable">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="full-screen" content="yes">
+  <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+  <meta content="no-cache" http-equiv="Pragma"/>
+  <meta content="0" http-equiv="Expires"/>
+  <title>todos</title>
+  <script src="cordova.js"></script>
+  <script>
+    window.onload = function() {
+      document.addEventListener('touchend', function(e) {
+        if(e.target.className != 'new-todo') {
+          if(document.querySelector('.new-todo')){
+            document.querySelector('.new-todo').blur();
+          }
+        }
+      });
+    }
+  </script>
+</head>
+<body class="body">
+<div id="app"></div>
+</body>
+</html>
