@@ -1,8 +1,8 @@
-# todos
+## todos
 
 > A Vue.js project
-> vue2.0,vuex,echarts,mint-ui,yd-ui
->a good demo for learning vue and vuex.
+# > vue2.0,vuex,echarts,mint-ui,yd-ui
+# >a good demo for learning vue and vuex.
 
 ## Build Setup
 
